@@ -1,0 +1,59 @@
+
+/* .box{
+    background-color: aqua;
+    width: 50%;
+}
+.box1{
+    background-color: purple;
+    width: 100%;
+} */
+
+/* h1{
+    font-size: 40px;
+    color: purple;
+}
+
+100% = 16px 
+1px = 6.25% */
+
+/* 1em = 16px */
+
+/* .parent{
+    font-size: 5px;
+}
+
+li{
+    font-size: 10em;
+} */
+
+/* html{
+    font-size: 10px;
+}
+
+
+p{
+    font-size: 5rem;
+} */
+
+/* *{
+    background-color: red;
+}
+
+p{
+    background-color: green;
+} */
+
+
+/* .box{
+    background-color: purple;
+} */
+
+.box p{
+    background-color: orange;
+}
+
+
+
+#abc{
+    color: aqua;
+}
