@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* .box{
+            width: 300px;
+            height: 300px;
+            background-color: aqua;
+            position: relative;
+            top: 100px;
+            left: 100px;
+        } */
+        /* .parent{
+            background-color: aqua;
+            width: 400px;
+            height: 600px;
+            position: relative;
+         }
+
+         .player{
+            width: 80px;
+            height: 80px;
+            position: absolute;
+         }
+         .player1{
+            background-color: red;
+         }
+         .player2{
+            background-color: green;
+            top: 0px;
+            right: 0px;
+         }
+
+         .player3{
+            background-color: purple;
+            left: 0px;
+            bottom: 0px;
+         }
+         .player4{
+            background-color: orange;
+            right: 0px;
+            bottom: 0px;
+         }
+         .navbar{
+            width: 100%;
+            background-color: red;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            top: 0px;
+         }
+
+         .content{
+            border: 4px solid black;
+            height: 1000px;
+         }
+
+         .nextContent{
+            background-color: yellow;
+            border: 3px solid brown;
+            height: 1000px;
+         }
+
+         .conatiner{
+            width: 100%;
+            height: 1200px;
+            border: 5px solid orange;
+         }
+         .sticky{
+            background-color: brown;
+            width: 100%;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 40px;
+         }
+
+         .cardSection{
+            background-color: purple;
+            border: 5px solid black;
+            height: 1000px;
+         } */
+
+        /* .box {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    color: white;
+}
+
+.box1 {
+    background: #ff5722;
+    z-index: 2;
+   
+}
+
+.box2 {
+    background: #2196f3;
+    top: 10px;
+    left: 40px;
+    z-index: 4;
+    
+} */
+        * {
+            margin: 0;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .flexContainer {
+            background-color: green;
+            height: 800px;
+            border: 5px solid black;
+            display: flex;
+            flex-direction: row;
+            /* flex-wrap: wrap; */
+            justify-content: start;
+            align-items: start;
+            align-content: start;
+        }
+
+        .flexItem {
+            width: 200px;
+            height: 200px;
+        }
+
+        .flexItem1 {
+            background-color: red;
+            flex-basis: 400px;
+        }
+
+        .flexItem2 {
+            background-color: aqua;
+            /* flex: 6; */
+        }
+
+        .flexItem3 {
+            background-color: blue;
+            align-self: center;
+        }
+
+        .flexItem4 {
+            background-color: yellow;
+            /* flex-shrink: 3; */
+            /* flex-grow: 2; */
+        }
+        .navContainer{
+            background-color: yellow;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .navList >ul{
+            display: flex;
+            gap: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <div class="box">
+        Position Relative
+    </div> -->
+
+    <!-- <div class="parent">
+
+        <div class="player player1">Player 1</div>
+        <div class="player player2">Player 2</div>
+        <div class="player player3">Player 3</div>
+        <div class="player player4">Player 4</div>
+    </div> -->
+
+    <!-- <div class="navbar">Navbar Fixed</div>
+
+
+    <div class="content">
+        <p>Scrooll Hone ke bd Navbar Fixed hojayega </p>
+    </div>
+     <div class="nextContent">
+        <p>Scrooll Hone ke bd Navbar Fixed hojayega </p>
+    </div> -->
+
+
+    <!-- <div class="conatiner">
+        <h1>Stikcy Header</h1>
+        <div class="sticky">Mai Stikcy Hooo</div>
+
+    </div>
+
+<div class="cardSection">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolorem quaerat illo. Deleniti, quis pariatur! Architecto, magnam, asperiores sed facilis ratione laudantium obcaecati et aut, possimus facere doloremque placeat minima!
+    Ipsum aperiam placeat rem neque doloremque similique illum qui voluptate, ut, nulla eaque velit molestiae explicabo laudantium perferendis id ullam quidem ratione fuga. Soluta est, dolorum explicabo corporis magnam praesentium?
+    Exercitationem eaque veritatis voluptatum tenetur necessitatibus delectus itaque nihil eum obcaecati? Quam provident ullam harum repudiandae commodi nulla ducimus in quia nam. Ex asperiores eligendi repellat laboriosam dignissimos aliquam neque.
+    Quisquam suscipit nulla iusto ipsum numquam laborum cumque sed! Quis, est magni dolorum asperiores itaque modi debitis at repellendus rerum sint expedita tempora sit, voluptatem esse! Repudiandae, exercitationem? Est, natus!</p>
+</div> -->
+
+    <!-- <div class="box box1">Box 1</div>
+<div class="box box2">Box 2 (Higher Z-Index)</div> -->
+
+    <!-- <div class="flexContainer">
+
+        <div class=" flexItem flexItem1">Flex Item 1</div>
+        <div class="flexItem flexItem2">Flex Item 2</div>
+        <div class="flexItem flexItem3">Flex Item 3</div>
+        <div class="flexItem flexItem4">Flex Item 4</div>
+    </div> -->
+
+    <div class="navContainer">
+        <div class="navLeft">
+
+            <div class="navlogo">
+                <img src="" alt="">
+            </div>
+            <div class="navList">
+
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Service</li>
+                </ul>
+            </div>
+        </div>
+        <div class="navRight">
+            <div class="navBtn">
+                <button>Login </button>
+                <button>Signup</button>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
