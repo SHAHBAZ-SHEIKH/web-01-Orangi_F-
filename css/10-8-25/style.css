@@ -1,0 +1,204 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navContainer{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.navLeft{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+}
+.navList > ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+   
+    /* padding-top: 10px; */
+    font-size: 1.8rem;
+    color: #003087;
+    
+}
+
+.navLOgo > img{
+    width: 80px;
+    height: 80px;
+}
+.navBtn{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+
+.login{
+    width: 100px;
+    background-color: #fff;
+    color: #003087;
+    border-radius: 23px;
+    padding: 12px 15px;
+    border: 1px solid black;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.signup{
+    width: 100px;
+    background-color: #003087;
+    color: #fff;
+    border-radius: 23px;
+    padding: 12px 15px;
+    border:  1px solid #003087;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.BannerSection{
+    background: #003087 url("https://www.paypalobjects.com/marketing/web/shared/qrc-sms/background-swirls.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bannerMain{
+    width: 100%;
+    max-width: 1200px;
+    
+    padding: 50px 0px 0px 70px;
+   
+}
+
+.wrapper{
+    display: flex;
+}
+.scannner{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    
+    margin-top: 30px;
+    gap: 30px;
+    padding: 0px 10px;
+}
+
+.scannerRight{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bannerHead{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bannerHead > h1{
+    font-size: 5rem;
+    color: #fff;
+}
+.bannerHead > a{
+    color: #000;
+    font-size: 1.4rem;
+    
+}
+
+.bannerLeft > p{
+    padding-top: 20px;
+    color: #fff;
+    font-size: 1.5rem;
+
+}
+
+.scannerRight >input{
+    width: 300px;
+    padding: 12px 15px;
+    border: 1px solid #fff;
+}
+.scannerRight >button{
+    width: 150px;
+    background-color: #F9B822;
+    color: #fff;
+    border-radius: 23px;
+    padding: 12px 15px;
+    border:  1px solid #003087;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.scannerRight >p{
+    color: #fff;
+}
+
+
+
+.CardSection{
+    background-color:#fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.cardleft >img{
+    width: 350px;
+    height: 350px;
+}
+.cardItem{
+    /* background-color: green; */
+    max-width: 900px;
+    display: flex;
+    gap: 50px;
+    padding: 40px 40px;
+}
+
+
+/* .cardRight{
+    display: flex;
+    flex-direction: column;
+} */
+
+.CardContent{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+   
+    height: 300px;
+    justify-content: center;
+}
+.CardContent >h1{
+    font-size: 2rem;
+    color: #0C0C0D;
+}
+
+
+.CardContent>p{
+    color: #000;
+    font-size: 1.5rem;
+}
+
+
+.CardSection2{
+    background-color:#fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
