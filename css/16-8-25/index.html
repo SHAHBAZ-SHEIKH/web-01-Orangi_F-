@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+        /* .box{
+            background-color: aqua;
+            width: 200px;
+            height: 200px;
+        }
+        .head{
+            font-size: 6rem;
+            color: purple;
+        }
+
+        @media(max-width:300px){
+
+            .box{
+                background-color: red;
+            }
+
+            .head{
+                font-size: 2rem;
+                color: green;
+            }
+
+
+        }
+
+
+
+
+
+        @media(min-width:500px){
+            .box{
+                background-color: yellow;
+            }
+        } */
+
+        /* img{
+            width: 200px;
+            height: 200px;
+        }
+
+        .card{
+            display: flex;
+            background-color: aqua;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .cradContent{
+            width: 100%;
+            max-width: 400px;
+            background-color: red;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        @media(min-width:700px){
+            .card{
+                background-color: green;
+                justify-content: end;
+            }
+        } */
+    </style>
+</head>
+
+<body>
+
+    <!-- <h1>Media Query</h1>
+
+    <h1 class="head">Media Query Class</h1>
+
+
+    <div class="box">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum eos odio esse tempora voluptates? Expedita nam, natus distinctio, exercitationem temporibus cupiditate explicabo perferendis accusantium repellendus dolorum error earum reiciendis ipsum?
+    </div> -->
+
+
+    <!-- <div class="card">
+        <div class="cradContent">
+            <img src="https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+            <h1>Hello Text</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ullam dolorem nulla iure. Tempora consectetur explicabo nam eum corporis animi labore molestias amet, ratione iste illo optio autem! Modi, saepe.
+            </p>
+        </div>
+    </div>
+     -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-3" style="background-color: red;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minus magni
+                    consequuntur quidem! Quam, doloremque hic mollitia nihil magni cumque maiores sunt tenetur esse
+                    architecto, ipsum fugiat quaerat distinctio accusantium!
+                </div>
+                <div class="col-sm-12 col-md-3" style="background-color: green;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nobis porro nemo amet
+                    facere placeat vel dolor blanditiis ex ipsam. Non molestiae velit illum esse blanditiis aspernatur!
+                    Repellat, debitis facilis.</div>
+                <div class="col-sm-12 col-md-3" style="background-color: orange;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, impedit ratione totam vel
+                    eius veritatis consectetur ea dolorum similique, possimus eum obcaecati! Animi, veniam. Tempore
+                    quisquam officia id facere perspiciatis
+                    .</div>
+                    <div class="col-sm-12 col-md-3" style="background-color: orange;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, impedit ratione totam vel
+                    eius veritatis consectetur ea dolorum similique, possimus eum obcaecati! Animi, veniam. Tempore
+                    quisquam officia id facere perspiciatis.
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+                    class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="conatiner-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">'
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="para ">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet esse ipsum vero hic
+                        perferendis eum enim id sed nam possimus error ut consectetur reprehenderit quaerat tempora,
+                        tenetur, at harum non.
+                        Ratione eos aperiam, reiciendis nostrum animi quam iste dolores ab atque ipsum eveniet quaerat
+                        asperiores molestiae delectus commodi totam cum aliquid. A dignissimos fugit animi nulla amet
+                        expedita facilis quia.
+                        Sequi, repellendus explicabo soluta cumque repellat itaque illum ratione laborum ipsam veritatis
+                        suscipit debitis et reprehenderit nam? Dignissimos, commodi cumque molestiae odit eos inventore
+                        expedita provident quasi modi. Iusto, quis.
+                        Pariatur quod libero, fugiat voluptate dolores totam. Nam quos doloribus eum natus molestiae,
+                        placeat cum aliquam magnam quisquam commodi, reprehenderit perferendis accusantium mollitia et
+                        illum pariatur quasi ex ea quod.
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="cardImg">
+                        <img style="width: 400px; height: 300px;"
+                            src="https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
