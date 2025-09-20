@@ -74,20 +74,20 @@
 // }
 
 
-var ispalindrome = "level"
-var reverse = ""
+// var ispalindrome = "level"
+// var reverse = ""
 
-for(var i=ispalindrome.length -1; i>=0; i--){
-  console.log(ispalindrome[i] )
-  reverse = reverse + ispalindrome[i]
-}
+// for(var i=ispalindrome.length -1; i>=0; i--){
+//   console.log(ispalindrome[i] )
+//   reverse = reverse + ispalindrome[i]
+// }
 
-console.log(reverse)
-if(ispalindrome == reverse){
-    console.log("Palindrome")
-}
-else{
-    console.log("Not Palindrome")
-}
+// console.log(reverse)
+// if(ispalindrome == reverse){
+//     console.log("Palindrome")
+// }
+// else{
+//     console.log("Not Palindrome")
+// }
 
 
